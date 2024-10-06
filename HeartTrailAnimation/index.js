@@ -6,5 +6,8 @@ bodyE1.addEventListener("mousemove", (event)=>{
   span1.style.left = xPos + "px"
   span1.style.top = yPos + "px"
   bodyE1.appendChild(span1)
+  setTimeout(()=>{
+    span1.remove()
+  },3000)
 })     
 
