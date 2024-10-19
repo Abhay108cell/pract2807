@@ -5,6 +5,10 @@ const carrers = ["youtuber", "Entreprenur",
 
   const carrersIndex = 0
 
-containerE1.innerHTML = `
-<h1>I am a ${carrers[carrersIndex]} </h1>
-`;
+  updateText();
+  function updateText() {
+    containerE1.innerHTML = `
+    <h1>I am a ${carrers[carrersIndex]} </h1>
+    `;
+  }
+
