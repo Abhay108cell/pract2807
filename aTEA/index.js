@@ -5,10 +5,12 @@ const carrers = ["youtuber", "Entreprenur",
 
   const carrersIndex = 0
 
+  let characterIndex = 0;
+
   updateText();
   function updateText() {
     containerE1.innerHTML = `
-    <h1>I am a ${carrers[carrersIndex]} </h1>
+    <h1>I am a ${carrers[carrersIndex].slice(0,characterIndex)} </h1>
     `;
   }
 
