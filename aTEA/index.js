@@ -12,5 +12,7 @@ const carrers = ["youtuber", "Entreprenur",
     containerE1.innerHTML = `
     <h1>I am a ${carrers[carrersIndex].slice(0,characterIndex)} </h1>
     `;
+    characterIndex++
+    setTimeout(updateText, 300);
   }
 
