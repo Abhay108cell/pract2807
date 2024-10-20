@@ -4,4 +4,7 @@ const dayNum1 = document.getElementById("day-number")
 const yearE1 = document.getElementById("year")
 
 const date = new Date()
-console.log(date);
+const month = date.getMonth()
+monthNameE1.innerText = date.toLocaleString("en",{
+  month: "long"
+})
