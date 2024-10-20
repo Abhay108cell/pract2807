@@ -22,17 +22,24 @@ body{
   background-color: orangered;
   color: white;
   padding: 10px;
-  font-style: 30px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .day-name{
-  font-style: 20px;
+  font-size: 20px;
   color: darkgray;
 }
 
 .day-number{
-  font-style: 80px;
+  font-size: 80px;
   margin: 0;
   font-weight: bold;
+}
+
+.year{
+  margin: 20px 0;
+  font-size: 20px;
+  color: darkgray;
+  font-weight: 500;
 }
